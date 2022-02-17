@@ -23,6 +23,6 @@ setup(
     ],
     extras_require=[
         'tensorflow',
-    ]
+    ],
     python_requires='>=3.6'
 )
