@@ -20,7 +20,9 @@ setup(
         'numpy~=1.19.5',
         'typing-extensions~=3.7.4',
         'torch',
-        'tensorflow',
     ],
+    extras_require=[
+        'tensorflow',
+    ]
     python_requires='>=3.6'
 )
