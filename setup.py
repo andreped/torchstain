@@ -17,7 +17,7 @@ setup(
     packages=find_packages(exclude=('tests')),
     zip_safe=False,
     install_requires=[
-        'numpy==1.19.5',
+        'numpy~=1.19.5',
         'typing-extensions~=3.7.4',
         'tensorflow',
         'torch',
